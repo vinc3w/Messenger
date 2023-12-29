@@ -1,0 +1,25 @@
+<div id="profile" class="space-y-3">
+    <div>
+        @include('home.app.profile.partials.user-id')
+    </div>
+    <hr>
+    <div>
+        @include('home.app.profile.partials.update-profile-image')
+    </div>
+    <hr>
+    <div>
+        @include('home.app.profile.partials.update-profile-information-form')
+    </div>
+    <hr>
+    <div>
+        @include('home.app.profile.partials.update-password-form')
+    </div>
+    <hr>
+    <div>
+        @include('home.app.profile.partials.logout')
+    </div>
+    <hr>
+    <div>
+        @include('home.app.profile.partials.delete-user-form')
+    </div>
+</div>
